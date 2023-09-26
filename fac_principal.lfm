@@ -63,7 +63,6 @@ object frmPrincipal: TfrmPrincipal
     Width = 63
     MaxValue = 100
     MinValue = 1
-    OnChange = spnNumeroChange
     TabOrder = 3
     Value = 1
   end

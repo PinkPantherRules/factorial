@@ -20,7 +20,7 @@ type
     spnNumero: TSpinEdit;
     procedure btnCalcularClick(Sender: TObject);
     function Factorial(n: Integer): Integer;
-    procedure spnNumeroChange(Sender: TObject);
+
   private
 
   public
@@ -50,10 +50,7 @@ begin
     Result := n * Factorial(n - 1);
 end;
 
-procedure TfrmPrincipal.spnNumeroChange(Sender: TObject);
-begin
 
-end;
 
 end.
 
